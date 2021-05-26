@@ -1,0 +1,200 @@
+[
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": {
+			"kind": "array",
+			"items": [
+				{
+					"kind": "entry",
+					"key": {
+						"kind": "string",
+						"value": "subtotal",
+						"raw": "'subtotal'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"value": {
+						"kind": "number",
+						"value": "0"
+					},
+					"byRef": false,
+					"unpack": false
+				}
+			],
+			"shortForm": false
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": {
+			"kind": "array",
+			"items": [
+				{
+					"kind": "entry",
+					"key": null,
+					"value": {
+						"kind": "string",
+						"value": "users",
+						"raw": "'users'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"byRef": false,
+					"unpack": false
+				},
+				{
+					"kind": "entry",
+					"key": null,
+					"value": {
+						"kind": "string",
+						"value": "usermeta",
+						"raw": "'usermeta'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"byRef": false,
+					"unpack": false
+				}
+			],
+			"shortForm": false
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": {
+			"kind": "array",
+			"items": [],
+			"shortForm": true
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "format"
+		},
+		"value": {
+			"kind": "boolean",
+			"value": false,
+			"raw": "false"
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "format"
+		},
+		"value": {
+			"kind": "boolean",
+			"value": true,
+			"raw": "true"
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "page"
+		},
+		"value": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "PHP_ROUND_HALF_UP"
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "posts"
+		},
+		"value": {
+			"kind": "nullkeyword",
+			"raw": "null"
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "count"
+		},
+		"value": {
+			"kind": "number",
+			"value": "0"
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "first_name"
+		},
+		"value": {
+			"kind": "string",
+			"value": "Paul",
+			"raw": "'Paul'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "param"
+		},
+		"value": null,
+		"nullable": false,
+		"type": {
+			"kind": "name",
+			"resolution": "fqn",
+			"name": "\\UnitTester"
+		}
+	},
+	{
+		"kind": "property",
+		"name": {
+			"kind": "identifier",
+			"name": "arg"
+		},
+		"value": null,
+		"nullable": false,
+		"type": null
+	},
+	{
+		"kind": "notproperty"
+	},
+	-5
+]

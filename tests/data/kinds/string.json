@@ -1,0 +1,41 @@
+[
+	{
+		"kind": "string",
+		"value": "",
+		"raw": "''",
+		"unicode": false,
+		"isDoubleQuote": false
+	},
+	{
+		"kind": "string",
+		"value": "500",
+		"raw": "'500'",
+		"unicode": false,
+		"isDoubleQuote": false
+	},
+	{
+		"kind": "string",
+		"value": "address_1",
+		"raw": "'address_1'",
+		"unicode": false,
+		"isDoubleQuote": false
+	},
+	{
+		"kind": "string",
+		"value": "Content-Type: text/html\r\n",
+		"raw": "\"Content-Type: text/html\\r\\n\"",
+		"unicode": false,
+		"isDoubleQuote": true
+	},
+	{
+		"kind": "string",
+		"value": "ONLY_FULL_GROUP_BY",
+		"raw": "'ONLY_FULL_GROUP_BY'",
+		"unicode": false,
+		"isDoubleQuote": false
+	},
+	{
+		"kind": "notstring"
+	},
+	-5
+]

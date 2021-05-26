@@ -1,0 +1,16 @@
+[
+	{
+		"kind": "typereference",
+		"name": "string",
+		"raw": "string"
+	},
+	{
+		"kind": "typereference",
+		"name": "array",
+		"raw": "array"
+	},
+	{
+		"kind": "nottypereference"
+	},
+	-5
+]

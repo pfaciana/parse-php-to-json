@@ -1,0 +1,154 @@
+[
+	{
+		"kind": "propertystatement",
+		"properties": [
+			{
+				"kind": "property",
+				"name": {
+					"kind": "identifier",
+					"name": "options"
+				},
+				"value": {
+					"kind": "array",
+					"items": [],
+					"shortForm": false
+				},
+				"nullable": false,
+				"type": null
+			}
+		],
+		"visibility": "public",
+		"isStatic": false
+	},
+	{
+		"kind": "propertystatement",
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 99,
+				"column": 11,
+				"offset": 4235
+			},
+			"end": {
+				"line": 99,
+				"column": 32,
+				"offset": 4256
+			}
+		},
+		"properties": [
+			{
+				"kind": "property",
+				"name": {
+					"kind": "identifier",
+					"name": "comments"
+				},
+				"value": {
+					"kind": "array",
+					"items": [],
+					"shortForm": true
+				},
+				"nullable": false,
+				"type": null
+			}
+		],
+		"visibility": "protected",
+		"isStatic": false
+	},
+	{
+		"kind": "propertystatement",
+		"properties": [
+			{
+				"kind": "property",
+				"name": {
+					"kind": "identifier",
+					"name": "is_mysql"
+				},
+				"value": {
+					"kind": "boolean",
+					"value": false,
+					"raw": "false"
+				},
+				"nullable": false,
+				"type": null
+			}
+		],
+		"visibility": "private",
+		"isStatic": false
+	},
+	{
+		"kind": "propertystatement",
+		"properties": [
+			{
+				"kind": "property",
+				"name": {
+					"kind": "identifier",
+					"name": "totals"
+				},
+				"value": {
+					"kind": "number",
+					"value": "0"
+				},
+				"nullable": false,
+				"type": null
+			}
+		],
+		"visibility": null,
+		"isStatic": false
+	},
+	{
+		"kind": "propertystatement",
+		"properties": [
+			{
+				"kind": "property",
+				"name": {
+					"kind": "identifier",
+					"name": "show_errors"
+				},
+				"value": null,
+				"nullable": false,
+				"type": null
+			},
+			{
+				"kind": "property",
+				"name": {
+					"kind": "identifier",
+					"name": "page"
+				},
+				"value": {
+					"kind": "name",
+					"resolution": "uqn",
+					"name": "PHP_ROUND_HALF_UP"
+				},
+				"nullable": false,
+				"type": null
+			}
+		],
+		"visibility": null,
+		"isStatic": true
+	},
+	{
+		"kind": "propertystatement",
+		"properties": [
+			{
+				"kind": "property",
+				"name": {
+					"kind": "identifier",
+					"name": "param"
+				},
+				"value": null,
+				"nullable": false,
+				"type": {
+					"kind": "name",
+					"resolution": "fqn",
+					"name": "\\UnitTester"
+				}
+			}
+		],
+		"visibility": "protected",
+		"isStatic": false
+	},
+	{
+		"kind": "notpropertystatement"
+	},
+	-5
+]

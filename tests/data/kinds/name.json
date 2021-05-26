@@ -1,0 +1,31 @@
+[
+	{
+		"kind": "name",
+		"resolution": "fqn",
+		"name": "\\Iterator"
+	},
+	{
+		"kind": "name",
+		"resolution": "fqn",
+		"name": "\\UnitTester"
+	},
+	{
+		"kind": "name",
+		"resolution": "uqn",
+		"name": "PHP_ROUND_HALF_UP"
+	},
+	{
+		"kind": "name",
+		"resolution": "uqn",
+		"name": "WC_Abstract_Order"
+	},
+	{
+		"kind": "name",
+		"resolution": "uqn",
+		"name": "WC_Legacy_Cart"
+	},
+	{
+		"kind": "notname"
+	},
+	-5
+]

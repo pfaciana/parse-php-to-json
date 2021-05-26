@@ -1,0 +1,77 @@
+[
+	{
+		"kind": "classconstant",
+		"constants": [
+			{
+				"kind": "constant",
+				"name": {
+					"kind": "identifier",
+					"name": "CONSTANT1"
+				},
+				"value": {
+					"kind": "number",
+					"value": "123"
+				}
+			}
+		],
+		"visibility": "protected"
+	},
+	{
+		"kind": "classconstant",
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 91,
+				"column": 17,
+				"offset": 4005
+			},
+			"end": {
+				"line": 91,
+				"column": 32,
+				"offset": 4020
+			}
+		},
+		"constants": [
+			{
+				"kind": "constant",
+				"name": {
+					"kind": "identifier",
+					"name": "CONSTANT2"
+				},
+				"value": {
+					"kind": "number",
+					"value": "456"
+				}
+			},
+			{
+				"kind": "constant",
+				"name": {
+					"kind": "identifier",
+					"name": "CONSTANT3"
+				},
+				"value": {
+					"kind": "number",
+					"value": "789"
+				},
+				"loc": {
+					"source": "...",
+					"start": {
+						"line": 83,
+						"column": 17,
+						"offset": 3954
+					},
+					"end": {
+						"line": 83,
+						"column": 32,
+						"offset": 3969
+					}
+				}
+			}
+		],
+		"visibility": ""
+	},
+	{
+		"kind": "notclassconstant"
+	},
+	-5
+]

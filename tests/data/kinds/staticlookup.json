@@ -1,0 +1,18 @@
+[
+	{
+		"kind": "staticlookup",
+		"what": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "WC_Log_Levels"
+		},
+		"offset": {
+			"kind": "identifier",
+			"name": "NOTICE"
+		}
+	},
+	{
+		"kind": "notstaticlookup"
+	},
+	-5
+]

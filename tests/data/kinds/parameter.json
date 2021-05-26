@@ -1,0 +1,334 @@
+[
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "posts"
+		},
+		"value": null,
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": null,
+		"type": null,
+		"byref": false,
+		"variadic": true,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "pages"
+		},
+		"value": null,
+		"type": null,
+		"byref": true,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "cookie"
+		},
+		"value": null,
+		"type": {
+			"kind": "name",
+			"resolution": "fqn",
+			"name": "\\Iterator"
+		},
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": null,
+		"type": {
+			"kind": "typereference",
+			"name": "array",
+			"raw": "array"
+		},
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": {
+			"kind": "array",
+			"items": [],
+			"shortForm": false
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "keys"
+		},
+		"value": {
+			"kind": "array",
+			"items": [],
+			"shortForm": true
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "keys"
+		},
+		"value": {
+			"kind": "array",
+			"items": [
+				{
+					"kind": "entry",
+					"key": null,
+					"value": {
+						"kind": "string",
+						"value": "a",
+						"raw": "'a'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"byRef": false,
+					"unpack": false
+				},
+				{
+					"kind": "entry",
+					"key": null,
+					"value": {
+						"kind": "number",
+						"value": "1"
+					},
+					"byRef": false,
+					"unpack": false
+				},
+				{
+					"kind": "entry",
+					"key": null,
+					"value": {
+						"kind": "boolean",
+						"value": true,
+						"raw": "TRUE"
+					},
+					"byRef": false,
+					"unpack": false
+				},
+				{
+					"kind": "entry",
+					"key": null,
+					"value": {
+						"kind": "nullkeyword",
+						"raw": "NULL"
+					},
+					"byRef": false,
+					"unpack": false
+				}
+			],
+			"shortForm": true
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "query"
+		},
+		"value": {
+			"kind": "boolean",
+			"value": false,
+			"raw": "false"
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "round"
+		},
+		"value": {
+			"kind": "boolean",
+			"value": true,
+			"raw": "true"
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "output"
+		},
+		"value": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "ARRAY_A"
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": {
+			"kind": "nullkeyword",
+			"raw": "null"
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "name"
+		},
+		"value": {
+			"kind": "nullkeyword",
+			"raw": "NULL"
+		},
+		"type": {
+			"kind": "typereference",
+			"name": "string",
+			"raw": "string"
+		},
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "post_id"
+		},
+		"value": {
+			"kind": "number",
+			"value": "0"
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "expires"
+		},
+		"value": {
+			"kind": "number",
+			"value": "1.23"
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "args"
+		},
+		"value": {
+			"kind": "string",
+			"value": "",
+			"raw": "''",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "headers"
+		},
+		"value": {
+			"kind": "string",
+			"value": "Content-Type: text/html\r\n",
+			"raw": "\"Content-Type: text/html\\r\\n\"",
+			"unicode": false,
+			"isDoubleQuote": true
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "parameter",
+		"name": {
+			"kind": "identifier",
+			"name": "action"
+		},
+		"value": {
+			"kind": "unary",
+			"type": "-",
+			"what": {
+				"kind": "number",
+				"value": "1"
+			}
+		},
+		"type": null,
+		"byref": false,
+		"variadic": false,
+		"nullable": false
+	},
+	{
+		"kind": "notparameter"
+	},
+	-5
+]

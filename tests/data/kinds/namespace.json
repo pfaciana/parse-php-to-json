@@ -1,0 +1,532 @@
+[
+	{
+		"kind": "namespace",
+		"name": "RequestClient\\Request",
+		"withBrackets": false,
+		"children": []
+	},
+	{
+		"kind": "namespace",
+		"name": "RequestClient\\Request",
+		"withBrackets": false,
+		"children": [
+			{
+				"kind": "usegroup",
+				"name": null,
+				"type": null,
+				"items": [
+					{
+						"kind": "useitem",
+						"name": "DOMXPath",
+						"alias": {
+							"kind": "identifier",
+							"name": "Bob"
+						},
+						"type": null
+					},
+					{
+						"kind": "useitem",
+						"name": "DOMXPath2",
+						"alias": {
+							"kind": "identifier",
+							"name": "Frank"
+						},
+						"type": null
+					}
+				]
+			},
+			{
+				"kind": "trait",
+				"name": {
+					"kind": "identifier",
+					"name": "ezcReflectionReturnInfo"
+				},
+				"body": [
+					{
+						"kind": "method",
+						"name": {
+							"kind": "identifier",
+							"name": "__construct"
+						},
+						"arguments": [
+							{
+								"kind": "parameter",
+								"name": {
+									"kind": "identifier",
+									"name": "name"
+								},
+								"value": null,
+								"type": null,
+								"byref": false,
+								"variadic": false,
+								"nullable": false
+							}
+						],
+						"byref": false,
+						"type": null,
+						"nullable": false,
+						"isAbstract": false,
+						"isFinal": true,
+						"visibility": "",
+						"isStatic": true
+					},
+					{
+						"kind": "propertystatement",
+						"properties": [
+							{
+								"kind": "property",
+								"name": {
+									"kind": "identifier",
+									"name": "show_errors"
+								},
+								"value": null,
+								"nullable": false,
+								"type": null
+							},
+							{
+								"kind": "property",
+								"name": {
+									"kind": "identifier",
+									"name": "page"
+								},
+								"value": {
+									"kind": "name",
+									"resolution": "uqn",
+									"name": "PHP_ROUND_HALF_UP"
+								},
+								"nullable": false,
+								"type": null
+							}
+						],
+						"visibility": null,
+						"isStatic": true
+					},
+					{
+						"kind": "method",
+						"name": {
+							"kind": "identifier",
+							"name": "get_posts"
+						},
+						"arguments": [
+							{
+								"kind": "parameter",
+								"name": {
+									"kind": "identifier",
+									"name": "cart_item_key"
+								},
+								"value": null,
+								"type": null,
+								"byref": false,
+								"variadic": false,
+								"nullable": false
+							}
+						],
+						"byref": false,
+						"type": null,
+						"nullable": false,
+						"isAbstract": false,
+						"isFinal": false,
+						"visibility": "private",
+						"isStatic": false
+					},
+					{
+						"kind": "propertystatement",
+						"properties": [
+							{
+								"kind": "property",
+								"name": {
+									"kind": "identifier",
+									"name": "param"
+								},
+								"value": null,
+								"nullable": false,
+								"type": {
+									"kind": "name",
+									"resolution": "fqn",
+									"name": "\\UnitTester"
+								}
+							}
+						],
+						"visibility": "protected",
+						"isStatic": false
+					},
+					{
+						"kind": "method",
+						"name": {
+							"kind": "identifier",
+							"name": "parse_args"
+						},
+						"arguments": [
+							{
+								"kind": "parameter",
+								"name": {
+									"kind": "identifier",
+									"name": "key"
+								},
+								"value": null,
+								"type": {
+									"kind": "name",
+									"resolution": "fqn",
+									"name": "\\Iterator"
+								},
+								"byref": false,
+								"variadic": false,
+								"nullable": false
+							}
+						],
+						"byref": false,
+						"type": null,
+						"nullable": false,
+						"isAbstract": false,
+						"isFinal": false,
+						"visibility": "public",
+						"isStatic": false
+					}
+				]
+			},
+			{
+				"kind": "class",
+				"name": {
+					"kind": "identifier",
+					"name": "Cookie"
+				},
+				"isAnonymous": false,
+				"extends": {
+					"kind": "name",
+					"resolution": "uqn",
+					"name": "CookieHeaders"
+				},
+				"implements": [
+					{
+						"kind": "name",
+						"resolution": "fqn",
+						"name": "\\SomeOther"
+					}
+				],
+				"isAbstract": true,
+				"isFinal": false,
+				"body": [
+					{
+						"kind": "classconstant",
+						"constants": [
+							{
+								"kind": "constant",
+								"name": {
+									"kind": "identifier",
+									"name": "CONSTANT2"
+								},
+								"value": {
+									"kind": "number",
+									"value": "456"
+								}
+							},
+							{
+								"kind": "constant",
+								"name": {
+									"kind": "identifier",
+									"name": "CONSTANT3"
+								},
+								"value": {
+									"kind": "number",
+									"value": "789"
+								}
+							}
+						],
+						"visibility": ""
+					},
+					{
+						"kind": "traituse",
+						"traits": [
+							{
+								"kind": "name",
+								"resolution": "uqn",
+								"name": "A"
+							},
+							{
+								"kind": "name",
+								"resolution": "uqn",
+								"name": "B"
+							}
+						],
+						"adaptations": [
+							{
+								"kind": "traitprecedence",
+								"trait": {
+									"kind": "name",
+									"resolution": "uqn",
+									"name": "B"
+								},
+								"method": {
+									"kind": "identifier",
+									"name": "smallTalk"
+								},
+								"instead": [
+									{
+										"kind": "name",
+										"resolution": "uqn",
+										"name": "A"
+									}
+								]
+							},
+							{
+								"kind": "traitprecedence",
+								"trait": {
+									"kind": "name",
+									"resolution": "uqn",
+									"name": "A"
+								},
+								"method": {
+									"kind": "identifier",
+									"name": "bigTalk"
+								},
+								"instead": [
+									{
+										"kind": "name",
+										"resolution": "uqn",
+										"name": "B"
+									}
+								]
+							},
+							{
+								"kind": "traitalias",
+								"trait": {
+									"kind": "name",
+									"resolution": "uqn",
+									"name": "B"
+								},
+								"method": {
+									"kind": "identifier",
+									"name": "bigTalk"
+								},
+								"as": {
+									"kind": "identifier",
+									"name": "talk"
+								},
+								"visibility": ""
+							}
+						]
+					},
+					{
+						"kind": "classconstant",
+						"constants": [
+							{
+								"kind": "constant",
+								"name": {
+									"kind": "identifier",
+									"name": "CONSTANT1"
+								},
+								"value": {
+									"kind": "number",
+									"value": "123"
+								}
+							}
+						],
+						"visibility": "protected"
+					},
+					{
+						"kind": "traituse",
+						"traits": [
+							{
+								"kind": "name",
+								"resolution": "uqn",
+								"name": "CurlProxyTrait"
+							}
+						],
+						"adaptations": null
+					}
+				]
+			},
+			{
+				"kind": "function",
+				"name": {
+					"kind": "identifier",
+					"name": "wp_parse_args"
+				},
+				"loc": {
+					"source": "...",
+					"start": {
+						"line": 323,
+						"column": 0,
+						"offset": 10653
+					},
+					"end": {
+						"line": 336,
+						"column": 1,
+						"offset": 10680
+					}
+				},
+				"arguments": [
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "args"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					},
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "defaults"
+						},
+						"value": {
+							"kind": "string",
+							"value": "",
+							"raw": "''",
+							"unicode": false,
+							"isDoubleQuote": false
+						},
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					}
+				],
+				"byref": false,
+				"type": null,
+				"nullable": false
+			},
+			{
+				"kind": "usegroup",
+				"name": null,
+				"type": null,
+				"items": [
+					{
+						"kind": "useitem",
+						"name": "JmesPath",
+						"alias": null,
+						"type": null
+					}
+				]
+			},
+			{
+				"kind": "trait",
+				"name": {
+					"kind": "identifier",
+					"name": "ezcReflectionReturnInfo2"
+				},
+				"body": []
+			},
+			{
+				"kind": "class",
+				"name": {
+					"kind": "identifier",
+					"name": "Cookies"
+				},
+				"isAnonymous": false,
+				"extends": null,
+				"implements": null,
+				"isAbstract": false,
+				"isFinal": false,
+				"body": []
+			},
+			{
+				"kind": "function",
+				"name": {
+					"kind": "identifier",
+					"name": "__return_null"
+				},
+				"arguments": [],
+				"byref": false,
+				"type": null,
+				"nullable": false
+			},
+			{
+				"kind": "interface",
+				"name": {
+					"kind": "identifier",
+					"name": "WC_Logger_Interface"
+				},
+				"extends": null,
+				"body": [
+					{
+						"kind": "method",
+						"name": {
+							"kind": "identifier",
+							"name": "add"
+						},
+						"arguments": [
+							{
+								"kind": "parameter",
+								"name": {
+									"kind": "identifier",
+									"name": "handle"
+								},
+								"value": null,
+								"type": null,
+								"byref": false,
+								"variadic": false,
+								"nullable": false
+							},
+							{
+								"kind": "parameter",
+								"name": {
+									"kind": "identifier",
+									"name": "message"
+								},
+								"value": null,
+								"type": null,
+								"byref": false,
+								"variadic": false,
+								"nullable": false
+							},
+							{
+								"kind": "parameter",
+								"name": {
+									"kind": "identifier",
+									"name": "level"
+								},
+								"value": {
+									"kind": "staticlookup",
+									"what": {
+										"kind": "name",
+										"resolution": "uqn",
+										"name": "WC_Log_Levels"
+									},
+									"offset": {
+										"kind": "identifier",
+										"name": "NOTICE"
+									}
+								},
+								"type": null,
+								"byref": false,
+								"variadic": false,
+								"nullable": false
+							}
+						],
+						"byref": false,
+						"type": null,
+						"nullable": false,
+						"body": null,
+						"isAbstract": false,
+						"isFinal": false,
+						"visibility": "public",
+						"isStatic": false
+					}
+				]
+			}
+		],
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 2,
+				"column": 0,
+				"offset": 9
+			},
+			"end": {
+				"line": 345,
+				"column": 1,
+				"offset": 12345
+			}
+		}
+	},
+	{
+		"kind": "notnamespace"
+	},
+	-5
+]

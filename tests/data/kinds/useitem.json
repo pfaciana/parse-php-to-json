@@ -1,0 +1,40 @@
+[
+	{
+		"kind": "useitem",
+		"name": "DOMXPath",
+		"alias": {
+			"kind": "identifier",
+			"name": "Bob"
+		},
+		"type": null
+	},
+	{
+		"kind": "useitem",
+		"name": "JmesPath",
+		"alias": null,
+		"type": null
+	},
+	{
+		"kind": "useitem",
+		"name": "Minifier\\TinyMinify",
+		"alias": null,
+		"type": null,
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 3,
+				"column": 4,
+				"offset": 47
+			},
+			"end": {
+				"line": 3,
+				"column": 19,
+				"offset": 62
+			}
+		}
+	},
+	{
+		"kind": "notuseitem"
+	},
+	-5
+]

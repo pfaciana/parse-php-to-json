@@ -1,0 +1,249 @@
+[
+	{
+		"kind": "array",
+		"items": [],
+		"shortForm": false
+	},
+	{
+		"kind": "array",
+		"items": [
+			{
+				"kind": "entry",
+				"key": {
+					"kind": "string",
+					"value": "subtotal",
+					"raw": "'subtotal'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"value": {
+					"kind": "number",
+					"value": "0"
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": {
+					"kind": "string",
+					"value": "shipping_taxes",
+					"raw": "'shipping_taxes'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"value": {
+					"kind": "array",
+					"items": [],
+					"shortForm": false
+				},
+				"byRef": false,
+				"unpack": false
+			}
+		],
+		"shortForm": false
+	},
+	{
+		"kind": "array",
+		"items": [
+			{
+				"kind": "entry",
+				"key": {
+					"kind": "string",
+					"value": "status",
+					"raw": "'status'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"value": {
+					"kind": "string",
+					"value": "",
+					"raw": "''",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": {
+					"kind": "string",
+					"value": "prices_include_tax",
+					"raw": "'prices_include_tax'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"value": {
+					"kind": "boolean",
+					"value": false,
+					"raw": "false"
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": {
+					"kind": "string",
+					"value": "date_created",
+					"raw": "'date_created'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"value": {
+					"kind": "nullkeyword",
+					"raw": "null"
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": {
+					"kind": "string",
+					"value": "billing",
+					"raw": "'billing'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"value": {
+					"kind": "array",
+					"items": [
+						{
+							"kind": "entry",
+							"key": {
+								"kind": "string",
+								"value": "first_name",
+								"raw": "'first_name'",
+								"unicode": false,
+								"isDoubleQuote": false
+							},
+							"value": {
+								"kind": "string",
+								"value": "",
+								"raw": "''",
+								"unicode": false,
+								"isDoubleQuote": false
+							},
+							"byRef": false,
+							"unpack": false
+						},
+						{
+							"kind": "entry",
+							"key": {
+								"kind": "string",
+								"value": "last_name",
+								"raw": "'last_name'",
+								"unicode": false,
+								"isDoubleQuote": false
+							},
+							"value": {
+								"kind": "string",
+								"value": "",
+								"raw": "''",
+								"unicode": false,
+								"isDoubleQuote": false
+							},
+							"byRef": false,
+							"unpack": false
+						},
+						{
+							"kind": "entry",
+							"key": {
+								"kind": "string",
+								"value": "company",
+								"raw": "'company'",
+								"unicode": false,
+								"isDoubleQuote": false
+							},
+							"value": {
+								"kind": "string",
+								"value": "",
+								"raw": "''",
+								"unicode": false,
+								"isDoubleQuote": false
+							},
+							"byRef": false,
+							"unpack": false
+						}
+					],
+					"shortForm": false
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": {
+					"kind": "string",
+					"value": "date_paid",
+					"raw": "'date_paid'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"value": {
+					"kind": "nullkeyword",
+					"raw": "null"
+				},
+				"byRef": false,
+				"unpack": false
+			}
+		],
+		"shortForm": false
+	},
+	{
+		"kind": "array",
+		"items": [
+			{
+				"kind": "entry",
+				"key": null,
+				"value": {
+					"kind": "string",
+					"value": "a",
+					"raw": "'a'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": null,
+				"value": {
+					"kind": "number",
+					"value": "1"
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": null,
+				"value": {
+					"kind": "boolean",
+					"value": true,
+					"raw": "TRUE"
+				},
+				"byRef": false,
+				"unpack": false
+			},
+			{
+				"kind": "entry",
+				"key": null,
+				"value": {
+					"kind": "nullkeyword",
+					"raw": "NULL"
+				},
+				"byRef": false,
+				"unpack": false
+			}
+		],
+		"shortForm": true
+	},
+	{
+		"kind": "notarray"
+	},
+	-5
+]

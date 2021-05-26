@@ -1,0 +1,254 @@
+[
+	{
+		"kind": "function",
+		"name": {
+			"kind": "identifier",
+			"name": "get_posts"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "args"
+				},
+				"value": {
+					"kind": "nullkeyword",
+					"raw": "null"
+				},
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false
+	},
+	{
+		"kind": "function",
+		"name": {
+			"kind": "identifier",
+			"name": "__return_null"
+		},
+		"arguments": [],
+		"byref": false,
+		"type": null,
+		"nullable": false
+	},
+	{
+		"kind": "function",
+		"name": {
+			"kind": "identifier",
+			"name": "wp"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "query_vars"
+				},
+				"value": {
+					"kind": "string",
+					"value": "",
+					"raw": "''",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false
+	},
+	{
+		"kind": "function",
+		"name": {
+			"kind": "identifier",
+			"name": "wp_array_slice_assoc"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "array"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			},
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "keys"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false
+	},
+	{
+		"kind": "function",
+		"name": {
+			"kind": "identifier",
+			"name": "wp_is_stream"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "path"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false
+	},
+	{
+		"kind": "function",
+		"name": {
+			"kind": "identifier",
+			"name": "wp_list_sort"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "list"
+				},
+				"value": null,
+				"type": {
+					"kind": "name",
+					"resolution": "fqn",
+					"name": "\\Iterator"
+				},
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			},
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "orderby"
+				},
+				"value": {
+					"kind": "array",
+					"items": [],
+					"shortForm": false
+				},
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			},
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "order"
+				},
+				"value": {
+					"kind": "string",
+					"value": "ASC",
+					"raw": "'ASC'",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			},
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "preserve_keys"
+				},
+				"value": {
+					"kind": "boolean",
+					"value": false,
+					"raw": "false"
+				},
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false
+	},
+	{
+		"kind": "function",
+		"name": {
+			"kind": "identifier",
+			"name": "wp_parse_args"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "args"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			},
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "defaults"
+				},
+				"value": {
+					"kind": "string",
+					"value": "",
+					"raw": "''",
+					"unicode": false,
+					"isDoubleQuote": false
+				},
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false
+	},
+	{
+		"kind": "notfunction"
+	},
+	-5
+]

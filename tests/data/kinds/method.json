@@ -1,0 +1,206 @@
+[
+	{
+		"kind": "method",
+		"name": {
+			"kind": "identifier",
+			"name": "get_posts"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "cart_item_key"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false,
+		"isAbstract": false,
+		"isFinal": false,
+		"visibility": "",
+		"isStatic": false
+	},
+	{
+		"kind": "method",
+		"name": {
+			"kind": "identifier",
+			"name": "array_slice_assoc"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "code"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false,
+		"isAbstract": false,
+		"isFinal": false,
+		"visibility": "private",
+		"isStatic": false
+	},
+	{
+		"kind": "method",
+		"name": {
+			"kind": "identifier",
+			"name": "is_stream"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "data"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false,
+		"isAbstract": false,
+		"isFinal": false,
+		"visibility": "private",
+		"isStatic": true
+	},
+	{
+		"kind": "method",
+		"name": {
+			"kind": "identifier",
+			"name": "list_sort"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "item"
+				},
+				"value": null,
+				"type": {
+					"kind": "name",
+					"resolution": "fqn",
+					"name": "\\Iterator"
+				},
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false,
+		"isAbstract": false,
+		"isFinal": false,
+		"visibility": "protected",
+		"isStatic": false
+	},
+	{
+		"kind": "method",
+		"name": {
+			"kind": "identifier",
+			"name": "parse_args"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "key"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false,
+		"isAbstract": false,
+		"isFinal": false,
+		"visibility": "public",
+		"isStatic": false
+	},
+	{
+		"kind": "method",
+		"name": {
+			"kind": "identifier",
+			"name": "__construct"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "name"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false,
+		"isAbstract": false,
+		"isFinal": true,
+		"visibility": "public",
+		"isStatic": true
+	},
+	{
+		"kind": "method",
+		"name": {
+			"kind": "identifier",
+			"name": "__get"
+		},
+		"arguments": [
+			{
+				"kind": "parameter",
+				"name": {
+					"kind": "identifier",
+					"name": "query"
+				},
+				"value": null,
+				"type": null,
+				"byref": false,
+				"variadic": false,
+				"nullable": false
+			}
+		],
+		"byref": false,
+		"type": null,
+		"nullable": false,
+		"isAbstract": true,
+		"isFinal": false,
+		"visibility": "protected",
+		"isStatic": false
+	},
+	{
+		"kind": "notmethod"
+	},
+	-5
+]

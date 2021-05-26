@@ -1,0 +1,26 @@
+[
+	{
+		"kind": "identifier",
+		"name": "__construct"
+	},
+	{
+		"kind": "identifier",
+		"name": "cart_item"
+	},
+	{
+		"kind": "identifier",
+		"name": "CONSTANT"
+	},
+	{
+		"kind": "identifier",
+		"name": "WC_Cart"
+	},
+	{
+		"kind": "identifier",
+		"name": "wpdb"
+	},
+	{
+		"kind": "notidentifier"
+	},
+	-5
+]

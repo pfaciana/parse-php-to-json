@@ -1,0 +1,44 @@
+[
+	{
+		"kind": "constant",
+		"name": {
+			"kind": "identifier",
+			"name": "CONSTANT3"
+		},
+		"value": {
+			"kind": "number",
+			"value": "123"
+		}
+	},
+	{
+		"kind": "constant",
+		"name": {
+			"kind": "identifier",
+			"name": "CONSTANT2"
+		},
+		"value": {
+			"kind": "string",
+			"value": "constant value 2",
+			"raw": "'constant value 2'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 83,
+				"column": 17,
+				"offset": 3954
+			},
+			"end": {
+				"line": 83,
+				"column": 32,
+				"offset": 3969
+			}
+		}
+	},
+	{
+		"kind": "notconstant"
+	},
+	-5
+]

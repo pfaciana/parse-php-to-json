@@ -1,0 +1,135 @@
+[
+	{
+		"kind": "interface",
+		"name": {
+			"kind": "identifier",
+			"name": "WC_Logger_Interface"
+		},
+		"extends": null,
+		"body": [
+			{
+				"kind": "method",
+				"name": {
+					"kind": "identifier",
+					"name": "add"
+				},
+				"arguments": [
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "handle"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					},
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "message"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					},
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "level"
+						},
+						"value": {
+							"kind": "staticlookup",
+							"what": {
+								"kind": "name",
+								"resolution": "uqn",
+								"name": "WC_Log_Levels"
+							},
+							"offset": {
+								"kind": "identifier",
+								"name": "NOTICE"
+							}
+						},
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					}
+				],
+				"byref": false,
+				"type": null,
+				"nullable": false,
+				"body": null,
+				"isAbstract": false,
+				"isFinal": false,
+				"visibility": "public",
+				"isStatic": false
+			},
+			{
+				"kind": "method",
+				"name": {
+					"kind": "identifier",
+					"name": "log"
+				},
+				"arguments": [
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "level"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					},
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "message"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					},
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "context"
+						},
+						"value": {
+							"kind": "array",
+							"items": [],
+							"shortForm": false
+						},
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					}
+				],
+				"byref": false,
+				"type": null,
+				"nullable": false,
+				"body": null,
+				"isAbstract": false,
+				"isFinal": false,
+				"visibility": "public",
+				"isStatic": false
+			}
+		]
+	},
+	{"kind":  "notinterface"},
+	-5
+]

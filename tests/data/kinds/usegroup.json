@@ -1,0 +1,70 @@
+[
+	{
+		"kind": "usegroup",
+		"name": null,
+		"type": null,
+		"items": [
+			{
+				"kind": "useitem",
+				"loc": {
+					"source": "...",
+					"start": {
+						"line": 3,
+						"column": 4,
+						"offset": 47
+					},
+					"end": {
+						"line": 3,
+						"column": 19,
+						"offset": 62
+					}
+				},
+				"name": "DOMXPath",
+				"alias": {
+					"kind": "identifier",
+					"name": "Bob"
+				},
+				"type": null
+			},
+			{
+				"kind": "useitem",
+				"name": "DOMXPath2",
+				"alias": {
+					"kind": "identifier",
+					"name": "Frank"
+				},
+				"type": null
+			}
+		]
+	},
+	{
+		"kind": "usegroup",
+		"name": null,
+		"type": null,
+		"items": [
+			{
+				"kind": "useitem",
+				"name": "JmesPath",
+				"alias": null,
+				"type": null
+			}
+		]
+	},
+	{
+		"kind": "usegroup",
+		"name": null,
+		"type": null,
+		"items": [
+			{
+				"kind": "useitem",
+				"name": "Minifier\\TinyMinify",
+				"alias": null,
+				"type": null
+			}
+		]
+	},
+	{
+		"kind": "notusegroup"
+	},
+	-5
+]

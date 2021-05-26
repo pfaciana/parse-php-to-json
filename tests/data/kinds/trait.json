@@ -1,0 +1,277 @@
+[
+	{
+		"kind": "trait",
+		"name": {
+			"kind": "identifier",
+			"name": "ezcReflectionReturnInfo"
+		},
+		"body": [],
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 10,
+				"column": 0,
+				"offset": 104
+			},
+			"end": {
+				"line": 72,
+				"column": 1,
+				"offset": 3784
+			}
+		}
+	},
+	{
+		"kind": "trait",
+		"name": {
+			"kind": "identifier",
+			"name": "ezcReflectionReturnInfo"
+		},
+		"body": [
+			{
+				"kind": "method",
+				"name": {
+					"kind": "identifier",
+					"name": "__construct"
+				},
+				"arguments": [
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "name"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					}
+				],
+				"byref": false,
+				"type": null,
+				"nullable": false,
+				"isAbstract": false,
+				"isFinal": true,
+				"visibility": "",
+				"isStatic": true
+			},
+			{
+				"kind": "propertystatement",
+				"loc": {
+					"source": "...",
+					"start": {
+						"line": 99,
+						"column": 11,
+						"offset": 4235
+					},
+					"end": {
+						"line": 99,
+						"column": 32,
+						"offset": 4256
+					}
+				},
+				"properties": [
+					{
+						"kind": "property",
+						"name": {
+							"kind": "identifier",
+							"name": "show_errors"
+						},
+						"value": null,
+						"nullable": false,
+						"type": null
+					},
+					{
+						"kind": "property",
+						"name": {
+							"kind": "identifier",
+							"name": "page"
+						},
+						"value": {
+							"kind": "name",
+							"resolution": "uqn",
+							"name": "PHP_ROUND_HALF_UP"
+						},
+						"nullable": false,
+						"type": null
+					}
+				],
+				"visibility": null,
+				"isStatic": true
+			},
+			{
+				"kind": "method",
+				"name": {
+					"kind": "identifier",
+					"name": "get_posts"
+				},
+				"loc": {
+					"source": "...",
+					"start": {
+						"line": 134,
+						"column": 8,
+						"offset": 5054
+					},
+					"end": {
+						"line": 137,
+						"column": 2,
+						"offset": 5139
+					}
+				},
+				"arguments": [
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "cart_item_key"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					}
+				],
+				"byref": false,
+				"type": null,
+				"nullable": false,
+				"isAbstract": false,
+				"isFinal": false,
+				"visibility": "private",
+				"isStatic": false
+			},
+			{
+				"kind": "propertystatement",
+				"properties": [
+					{
+						"kind": "property",
+						"name": {
+							"kind": "identifier",
+							"name": "ready"
+						},
+						"value": null,
+						"nullable": false,
+						"type": null
+					}
+				],
+				"visibility": "protected",
+				"isStatic": false
+			},
+			{
+				"kind": "traituse",
+				"traits": [
+					{
+						"kind": "name",
+						"resolution": "uqn",
+						"name": "A"
+					},
+					{
+						"kind": "name",
+						"resolution": "uqn",
+						"name": "B"
+					}
+				],
+				"adaptations": [
+					{
+						"kind": "traitprecedence",
+						"trait": {
+							"kind": "name",
+							"resolution": "uqn",
+							"name": "B"
+						},
+						"method": {
+							"kind": "identifier",
+							"name": "smallTalk"
+						},
+						"instead": [
+							{
+								"kind": "name",
+								"resolution": "uqn",
+								"name": "A"
+							}
+						]
+					},
+					{
+						"kind": "traitprecedence",
+						"trait": {
+							"kind": "name",
+							"resolution": "uqn",
+							"name": "A"
+						},
+						"method": {
+							"kind": "identifier",
+							"name": "bigTalk"
+						},
+						"instead": [
+							{
+								"kind": "name",
+								"resolution": "uqn",
+								"name": "B"
+							}
+						]
+					},
+					{
+						"kind": "traitalias",
+						"trait": {
+							"kind": "name",
+							"resolution": "uqn",
+							"name": "B"
+						},
+						"method": {
+							"kind": "identifier",
+							"name": "bigTalk"
+						},
+						"as": {
+							"kind": "identifier",
+							"name": "talk"
+						},
+						"visibility": ""
+					}
+				]
+			},
+			{
+				"kind": "method",
+				"name": {
+					"kind": "identifier",
+					"name": "parse_args"
+				},
+				"arguments": [
+					{
+						"kind": "parameter",
+						"name": {
+							"kind": "identifier",
+							"name": "key"
+						},
+						"value": null,
+						"type": null,
+						"byref": false,
+						"variadic": false,
+						"nullable": false
+					}
+				],
+				"byref": false,
+				"type": null,
+				"nullable": false,
+				"isAbstract": false,
+				"isFinal": false,
+				"visibility": "public",
+				"isStatic": false
+			},
+			{
+				"kind": "traituse",
+				"traits": [
+					{
+						"kind": "name",
+						"resolution": "uqn",
+						"name": "CurlProxyTrait"
+					}
+				],
+				"adaptations": null
+			}
+		]
+	},
+	{
+		"kind": "nottrait"
+	},
+	-5
+]

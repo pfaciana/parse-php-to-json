@@ -1,0 +1,280 @@
+[
+	{
+		"kind": "entry",
+		"key": null,
+		"value": {
+			"kind": "array",
+			"items": [
+				{
+					"kind": "entry",
+					"key": null,
+					"value": {
+						"kind": "number",
+						"value": "2"
+					},
+					"byRef": false,
+					"unpack": false
+				}
+			],
+			"shortForm": true
+		},
+		"byRef": false,
+		"unpack": true
+	},
+	{
+		"kind": "entry",
+		"key": null,
+		"value": {
+			"kind": "boolean",
+			"value": true,
+			"raw": "TRUE"
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": null,
+		"value": {
+			"kind": "nullkeyword",
+			"raw": "NULL"
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": null,
+		"value": {
+			"kind": "number",
+			"value": "2"
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": null,
+		"value": {
+			"kind": "string",
+			"value": "posts",
+			"raw": "'posts'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": {
+			"kind": "string",
+			"value": "first_name",
+			"raw": "'first_name'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"value": {
+			"kind": "string",
+			"value": "",
+			"raw": "''",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": {
+			"kind": "string",
+			"value": "subtotal",
+			"raw": "'subtotal'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"value": {
+			"kind": "number",
+			"value": "0"
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": {
+			"kind": "string",
+			"value": "date_created",
+			"raw": "'date_created'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"value": {
+			"kind": "nullkeyword",
+			"raw": "null"
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": {
+			"kind": "string",
+			"value": "prices_include_tax",
+			"raw": "'prices_include_tax'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"value": {
+			"kind": "boolean",
+			"value": false,
+			"raw": "false"
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": {
+			"kind": "string",
+			"value": "order_key",
+			"raw": "'order_key'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"value": {
+			"kind": "string",
+			"value": "",
+			"raw": "''",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": {
+			"kind": "string",
+			"value": "billing",
+			"raw": "'billing'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"value": {
+			"kind": "array",
+			"items": [
+				{
+					"kind": "entry",
+					"key": {
+						"kind": "string",
+						"value": "first_name",
+						"raw": "'first_name'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"value": {
+						"kind": "string",
+						"value": "Doug",
+						"raw": "'Doug'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"byRef": false,
+					"unpack": false
+				},
+				{
+					"kind": "entry",
+					"key": {
+						"kind": "string",
+						"value": "last_name",
+						"raw": "'last_name'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"value": {
+						"kind": "string",
+						"value": "",
+						"raw": "''",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"byRef": false,
+					"unpack": false
+				},
+				{
+					"kind": "entry",
+					"key": {
+						"kind": "string",
+						"value": "company",
+						"raw": "'company'",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"value": {
+						"kind": "string",
+						"value": "",
+						"raw": "''",
+						"unicode": false,
+						"isDoubleQuote": false
+					},
+					"byRef": false,
+					"unpack": false
+				}
+			],
+			"shortForm": false
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": {
+			"kind": "string",
+			"value": "cart_contents_taxes",
+			"raw": "'cart_contents_taxes'",
+			"unicode": false,
+			"isDoubleQuote": false
+		},
+		"value": {
+			"kind": "array",
+			"items": [],
+			"shortForm": false
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": null,
+		"value": {
+			"kind": "staticlookup",
+			"what": {
+				"kind": "name",
+				"resolution": "uqn",
+				"name": "WC_Log_Levels"
+			},
+			"offset": {
+				"kind": "identifier",
+				"name": "NOTICE"
+			}
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "entry",
+		"key": null,
+		"value": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "CONSTANT1"
+		},
+		"byRef": false,
+		"unpack": false
+	},
+	{
+		"kind": "notentry"
+	},
+	-5
+]

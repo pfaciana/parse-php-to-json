@@ -1,0 +1,14 @@
+[
+	{
+		"kind": "unary",
+		"type": "-",
+		"what": {
+			"kind": "number",
+			"value": "1"
+		}
+	},
+	{
+		"kind": "notunary"
+	},
+	-5
+]

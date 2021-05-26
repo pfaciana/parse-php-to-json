@@ -1,0 +1,60 @@
+[
+	{
+		"kind": "program",
+		"children": [
+			{
+				"kind": "namespace",
+				"name": "RequestClient\\Request",
+				"withBrackets": false,
+				"children": [
+					{
+						"kind": "function",
+						"name": {
+							"kind": "identifier",
+							"name": "__return_null"
+						},
+						"arguments": [],
+						"byref": false,
+						"type": null,
+						"nullable": false
+					}
+				]
+			}
+		],
+		"errors": []
+	},
+	{
+		"kind": "program",
+		"children": [
+			{
+				"kind": "function",
+				"name": {
+					"kind": "identifier",
+					"name": "__return_null"
+				},
+				"arguments": [],
+				"byref": false,
+				"type": null,
+				"nullable": false
+			}
+		],
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 1,
+				"column": 0,
+				"offset": 9
+			},
+			"end": {
+				"line": 2345,
+				"column": 1,
+				"offset": 12345
+			}
+		},
+		"errors": []
+	},
+	{
+		"kind": "notprogram"
+	},
+	-5
+]

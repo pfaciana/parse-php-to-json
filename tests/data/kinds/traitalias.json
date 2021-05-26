@@ -1,0 +1,53 @@
+[
+	{
+		"kind": "traitalias",
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 17,
+				"column": 2,
+				"offset": 227
+			},
+			"end": {
+				"line": 17,
+				"column": 20,
+				"offset": 245
+			}
+		},
+		"trait": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "B"
+		},
+		"method": {
+			"kind": "identifier",
+			"name": "bigTalk"
+		},
+		"as": {
+			"kind": "identifier",
+			"name": "talk"
+		},
+		"visibility": ""
+	},
+	{
+		"kind": "traitalias",
+		"trait": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "B"
+		},
+		"method": {
+			"kind": "identifier",
+			"name": "bigTalk"
+		},
+		"as": {
+			"kind": "identifier",
+			"name": "talk"
+		},
+		"visibility": "protected"
+	},
+	{
+		"kind": "nottraitalias"
+	},
+	-5
+]

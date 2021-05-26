@@ -1,0 +1,57 @@
+[
+	{
+		"kind": "traitprecedence",
+		"loc": {
+			"source": "...",
+			"start": {
+				"line": 15,
+				"column": 2,
+				"offset": 173
+			},
+			"end": {
+				"line": 15,
+				"column": 26,
+				"offset": 197
+			}
+		},
+		"trait": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "B"
+		},
+		"method": {
+			"kind": "identifier",
+			"name": "smallTalk"
+		},
+		"instead": [
+			{
+				"kind": "name",
+				"resolution": "uqn",
+				"name": "A"
+			}
+		]
+	},
+	{
+		"kind": "traitprecedence",
+		"trait": {
+			"kind": "name",
+			"resolution": "uqn",
+			"name": "A"
+		},
+		"method": {
+			"kind": "identifier",
+			"name": "bigTalk"
+		},
+		"instead": [
+			{
+				"kind": "name",
+				"resolution": "uqn",
+				"name": "B"
+			}
+		]
+	},
+	{
+		"kind": "nottraitprecedence"
+	},
+	-5
+]
