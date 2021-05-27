@@ -1,6 +1,6 @@
 {
 	"name": "parse-php-to-json",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Convert PHP files into JSON file representations. Namespaces are structured as directories.",
 	"main": "index.js",
 	"repository": {
