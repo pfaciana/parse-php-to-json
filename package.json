@@ -13,6 +13,10 @@
 	"scripts": {
 		"test": "jest"
 	},
+	"engines": {
+		"node": ">=15"
+	},
+	"engineStrict": true,
 	"devDependencies": {
 		"jest": "^26"
 	},
