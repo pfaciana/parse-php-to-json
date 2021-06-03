@@ -165,3 +165,4 @@ module.exports = parsePHP;
 module.exports.isValidDir = isValidDir;
 module.exports.isValidExt = isValidExt;
 module.exports.isValidFile = isValidFile;
+module.exports.getFiles = getFiles;
